@@ -5,6 +5,8 @@
 #include <stdlib.h>
 #include <math.h>
 
+#define MAX(a,b) ((a) > (b) ? (a) : (b))
+
 /**
  * struct binary_tree_s - Binary tree node
  *
