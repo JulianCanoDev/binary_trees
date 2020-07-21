@@ -28,6 +28,7 @@ typedef struct binary_tree_s heap_t;
 
 /*===== Sub-functions =====*/
 void liberation(binary_tree_t *node);
+void our_preorder(binary_tree_t *tree, void (*func)(int));
 
 void binary_tree_print(const binary_tree_t *);
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);

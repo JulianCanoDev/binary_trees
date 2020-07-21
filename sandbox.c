@@ -36,3 +36,21 @@ void binary_tree_delete(binary_tree_t *tree)
     }
 }
 
+
+
+	binary_tree_t *current = NULL;
+	binary_tree_t *parent = NULL;
+
+	if(tree == NULL || func == NULL)
+		return;
+	current = tree;
+	parent = NULL;
+
+	while(1)
+	{
+		parent = current;
+		if(current->left != NULL)
+			current = current->left
+
+	}
+}
