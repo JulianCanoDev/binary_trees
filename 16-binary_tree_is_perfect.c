@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * balance_height - balance_height
+ * equals_height - balance_height
  * @tree: balanced tree
  * Return: A int
  */
