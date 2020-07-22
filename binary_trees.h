@@ -1,9 +1,7 @@
 #ifndef BINARY_TREES_HH
 #define BINARY_TREES_HH
 
-#include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 
